@@ -3,3 +3,4 @@ IF "启动" OR "电机" AND NOT "停止" THEN
 ELSE;
     "电机" := 0;
 END_IF;
+//

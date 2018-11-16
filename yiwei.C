@@ -13,7 +13,7 @@ unsigned char scan_key();
 void proc_key(unsigned char key_v);
 void delayms(unsigned char ms);
 sbit	K1 = P0^0;	//对应按钮K1
-sbit	K2 = P0^1;	//对应按钮K2
+sbit	K2 = P0^1;	//对应按钮K2//
 main()
 {
 	unsigned char key_s,key_v;
